@@ -1,0 +1,24 @@
+{
+  "name": "basictemplatehtml",
+  "version": "1.0.0",
+  "description": "A Basic template to test different vps services as node web hosts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExFireDragon/BasicTemplateHTML.git"
+  },
+  "author": "Lucas Monzón",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExFireDragon/BasicTemplateHTML/issues"
+  },
+  "homepage": "https://github.com/ExFireDragon/BasicTemplateHTML#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
