@@ -1,5 +1,5 @@
 const express = require('express');
-const http = require('http');
+const http = require('https');
 const app = express();
 const path = require('path');
 
@@ -10,7 +10,7 @@ app.use('/', (req, res) => {
   res.sendFile(path.join(__dirname +'/static/index.html'));
 });
 
-const server = http.createServer(app);
+const server = https.createServer(app);
 const port = 3000;
 server.listen(port);
 console.debug('Server listening on port ' + port);
